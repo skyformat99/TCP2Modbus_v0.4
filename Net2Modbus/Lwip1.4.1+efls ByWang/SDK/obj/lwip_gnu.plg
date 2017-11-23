@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\桌面\TCP2Modbus_v0.3-master\TCP2Modbus_v0.3-master\Net2Modbus\Lwip1.4.1+efls ByWang\SDK\lwip_gnu.uvproj
+Project File Date:  09/20/2016
+
+<h2>Output:</h2>
+Build target 'lwip2modbus'
+compiling netconf.c...
+..\myself\src\netconf.c(189): warning:  #223-D: function "tcp_tmr" declared implicitly
+..\myself\src\netconf.c:       tcp_tmr();
+..\myself\src\netconf.c:       ^
+..\myself\src\netconf.c(53): warning:  #177-D: variable "IPaddress" was declared but never referenced
+..\myself\src\netconf.c:   static uint32_t IPaddress = 0;
+..\myself\src\netconf.c:                   ^
+..\myself\src\netconf.c: ..\myself\src\netconf.c: 2 warnings, 0 errors
+compiling stm32f10x_it.c...
+..\myself\src\stm32f10x_it.c(155): warning:  #1295-D: Deprecated declaration Read_Eth_Packet - give arg types
+..\myself\src\stm32f10x_it.c:     extern void Read_Eth_Packet(); //读取数据包大BUFF中
+..\myself\src\stm32f10x_it.c:                 ^
+..\myself\src\stm32f10x_it.c: ..\myself\src\stm32f10x_it.c: 1 warning, 0 errors
+Project build/rebuild aborted.
+Target not created
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=53944 RO-data=756 RW-data=1476 ZI-data=49740  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=53944 RO-data=756 RW-data=1476 ZI-data=49740  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
